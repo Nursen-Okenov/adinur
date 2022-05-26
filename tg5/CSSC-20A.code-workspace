@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\adinur"
+		},
+		{
+			"path": "..\\tg4"
+		},
+		{
+			"path": "..\\tg3"
+		},
+		{
+			"path": "..\\tg1"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "tg5",
+		"liveServer.settings.port": 5501
+	}
+}

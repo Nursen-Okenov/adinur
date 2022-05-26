@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+[class*=__container] {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header {
+  margin: 20px 0;
+}
+
+.header .header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .header__container .header__logo {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.header .header__container .header__navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 58px;
+  list-style: none;
+}
+
+.header .header__container .header__navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.header .header__container .header__navbar ul li img {
+  margin-left: 15px;
+}
+
+.main {
+  margin-top: 140px;
+}
+
+.main .main__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 90px;
+}
+
+.main .main__container .main__first__block {
+  padding: 50px 50px;
+  width: 1066px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 583px;
+  background: #626262;
+  border-radius: 66px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .main__container .main__first__block .main__name {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+}
+
+.main .main__container .main__first__block .main__plus {
+  width: 119px;
+  height: 110px;
+  background: rgba(255, 255, 255, 0.46);
+  border-radius: 32px;
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 112px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .main__container .main__second__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main .main__container .main__second__block .main__inf {
+  height: 291.5px;
+}
+
+.main .main__container .main__second__block .main__inf .inf__title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+.main .main__container .main__second__block .main__hotels {
+  height: 291.5px;
+}
+
+.main .main__container .main__second__block .main__hotels .hotels__title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+.main .main__container .main__second__block .main__hotels .hotels {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 28px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.main .main__container .main__second__block .main__hotels .hotels .hotel {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 353px;
+  height: 221px;
+  background: #626262;
+  border-radius: 44px;
+}
+
+.star .star__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  margin-top: 35px;
+}
+
+.star .star__container div {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+}
+/*# sourceMappingURL=index.css.map */
